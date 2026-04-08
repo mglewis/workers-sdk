@@ -17,6 +17,8 @@ export const CorePaths = {
 	EXPLORER: "/cdn-cgi/explorer",
 	/** Legacy way to trigger scheduled event handlers */
 	LEGACY_SCHEDULED: "/cdn-cgi/mf/scheduled",
+	/** Local image delivery endpoint for serving hosted images */
+	IMAGE_DELIVERY: "/cdn-cgi/imagedelivery",
 } as const;
 
 export const CoreHeaders = {
@@ -72,6 +74,7 @@ export const CoreBindings = {
 	JSON_LOCAL_EXPLORER_WORKER_NAMES: "LOCAL_EXPLORER_WORKER_NAMES",
 	JSON_EXPLORER_WORKER_OPTS: "MINIFLARE_EXPLORER_WORKER_OPTS",
 	SERVICE_CACHE: "MINIFLARE_CACHE",
+	SERVICE_IMAGES_DELIVERY: "MINIFLARE_IMAGES_DELIVERY",
 } as const;
 
 export const ProxyOps = {

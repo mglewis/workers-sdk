@@ -13,6 +13,7 @@ type Env = {
 	[CoreBindings.SERVICE_LOOPBACK]: Fetcher;
 	[CoreBindings.SERVICE_USER_FALLBACK]: Fetcher;
 	[CoreBindings.SERVICE_LOCAL_EXPLORER]: Fetcher;
+	[CoreBindings.SERVICE_IMAGES_DELIVERY]?: Fetcher;
 	[CoreBindings.TEXT_CUSTOM_SERVICE]: string;
 	[CoreBindings.TEXT_UPSTREAM_URL]?: string;
 	[CoreBindings.JSON_CF_BLOB]: IncomingRequestCfProperties;
@@ -515,6 +516,12 @@ export default <ExportedHandler<Env>>{
 					url.pathname.startsWith(`${CorePaths.EXPLORER}/`)
 				) {
 					return await env[CoreBindings.SERVICE_LOCAL_EXPLORER].fetch(request);
+				}
+			}
+			const imagesDelivery = env[CoreBindings.SERVICE_IMAGES_DELIVERY];
+			if (imagesDelivery) {
+				if (url.pathname.startsWith(`${CorePaths.IMAGE_DELIVERY}/`)) {
+					return await imagesDelivery.fetch(request);
 				}
 			}
 			if (env[CoreBindings.TRIGGER_HANDLERS]) {
