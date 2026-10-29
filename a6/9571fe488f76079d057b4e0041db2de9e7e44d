@@ -1,0 +1,21 @@
+packages/workers-utils/tests/config/validation/normalize-and-validate-config.test.ts
+  s_7179b77838e19a::t_52f775d416341b 4638-4723,14539-14560
+packages/wrangler/src/type-generation/index.ts
+  s_7179b77838e19a::t_f93eecf5d2ad8c 3024-3025,4042-4047
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "a69571fe488f76079d057b4e0041db2de9e7e44d",
+  "prompts": {},
+  "sessions": {
+    "s_7179b77838e19a": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_e8207ef65ffeHv2FmQEdn9ov0n",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Matt Lewis <mattl@cloudflare.com>"
+    }
+  }
+}
