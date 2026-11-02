@@ -1,0 +1,27 @@
+packages/deploy-helpers/src/deploy/deploy.ts
+  s_7179b77838e19a::t_0782f2cd73fc8a 62,882-887
+packages/deploy-helpers/src/index.ts
+  s_7179b77838e19a::t_b36d2bf42a5058 37
+packages/wrangler/src/__tests__/deploy/routes.test.ts
+  s_7179b77838e19a::t_820e1a748589ba 44,1836-1897
+packages/wrangler/src/__tests__/versions/versions.deploy.test.ts
+  s_7179b77838e19a::t_bf89faf935b5db 17,1183-1201
+packages/wrangler/src/versions/deploy.ts
+  s_7179b77838e19a::t_c9bb6e0daaa5f0 13,321-326
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "36e4ec5c0df06f00063a358b59c7757ce1ed9350",
+  "prompts": {},
+  "sessions": {
+    "s_7179b77838e19a": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_e8207ef65ffeHv2FmQEdn9ov0n",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Matt Lewis <mattl@cloudflare.com>"
+    }
+  }
+}
