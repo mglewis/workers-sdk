@@ -1,0 +1,21 @@
+packages/workers-utils/src/config/environment.ts
+  s_7179b77838e19a::t_1d50fc3c42d1d0 1568,1570-1572,1584-1587
+packages/workers-utils/tests/config/validation/normalize-and-validate-config.test.ts
+  s_7179b77838e19a::t_904391ba3e3335 4666-4729
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "a8ff22ca7cb0e3bd5dc5501b7e478f693effcc48",
+  "prompts": {},
+  "sessions": {
+    "s_7179b77838e19a": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_e8207ef65ffeHv2FmQEdn9ov0n",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Matt Lewis <mattl@cloudflare.com>"
+    }
+  }
+}
