@@ -1,0 +1,33 @@
+.changeset/cdn-cgi-image-local-transforms.md
+  s_d1294bd0a56772::t_1a9515bd73dddd 1-3,4-5,6,7-10,12,27-28,30-31
+packages/codemods/src/codemods/wrangler-to-cf/bindings.ts
+  s_d1294bd0a56772::t_b373caf5d88c42 616-625
+packages/workers-utils/src/binding-utils.ts
+  s_7179b77838e19a::t_2caef16286a91b 218,220-221
+packages/workers-utils/tests/binding-utils.test.ts
+  s_7179b77838e19a::t_92bbfe123532e4 29,38-42,44-46,47
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "ee4ace8ff0fc9c8e061b5f5b143bc168a0b2cf9d",
+  "prompts": {},
+  "sessions": {
+    "s_7179b77838e19a": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_e8207ef65ffeHv2FmQEdn9ov0n",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Matt Lewis <mattl@cloudflare.com>"
+    },
+    "s_d1294bd0a56772": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ebaa6676fffeSXUZMezjlOHQVt",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Matt Lewis <mattl@cloudflare.com>"
+    }
+  }
+}
