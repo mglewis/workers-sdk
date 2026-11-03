@@ -1,0 +1,36 @@
+packages/workers-utils/tests/config/validation/normalize-and-validate-config.test.ts
+  s_7179b77838e19a::t_52f775d416341b 4638-4665,4730-4765,4798-4819,14635-14656
+  s_7179b77838e19a::t_904391ba3e3335 4666-4729
+  s_7179b77838e19a::t_a0db940eef73bd 4766-4797
+packages/wrangler/src/type-generation/index.ts
+  s_7179b77838e19a::t_f93eecf5d2ad8c 3024-3025,4042-4047
+packages/workers-utils/src/config/environment.ts
+  s_7179b77838e19a::t_1d50fc3c42d1d0 1568,1570-1572,1584-1587
+  s_7179b77838e19a::t_c4f916ed3b71f7 1592-1594
+packages/deploy-helpers/src/deploy/deploy.ts
+  s_7179b77838e19a::t_0782f2cd73fc8a 62,882-887
+packages/deploy-helpers/src/index.ts
+  s_7179b77838e19a::t_b36d2bf42a5058 37
+packages/wrangler/src/__tests__/deploy/routes.test.ts
+  s_7179b77838e19a::t_820e1a748589ba 44,1836-1897
+packages/wrangler/src/__tests__/versions/versions.deploy.test.ts
+  s_7179b77838e19a::t_bf89faf935b5db 17,1183-1201
+packages/wrangler/src/versions/deploy.ts
+  s_7179b77838e19a::t_c9bb6e0daaa5f0 13,321-326
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "b0831e9f403e7a19deeab2dcc264b14b0dfeff08",
+  "prompts": {},
+  "sessions": {
+    "s_7179b77838e19a": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_e8207ef65ffeHv2FmQEdn9ov0n",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Matt Lewis <mattl@cloudflare.com>"
+    }
+  }
+}
